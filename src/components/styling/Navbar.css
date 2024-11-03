@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Nav{
+ position: fixed;
+ top: 0;
+ right: 0;
+ /* z-index: 1000; */
+ display: flex;
+ gap: 20px;
+ padding: 10px;
+  width: 100%;
+ background-color: #333;
+ align-items: center;
+}
+
+
+.fcon{
+  margin-top: 50px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* margin-left: 450px; */
+  width: 500px;
+  padding: 15px;
+  border: 1px solid white;
+  
+
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.fsub{
+  background-color: blue;
+}
+
+
+
+.scon{
+  margin-top: 50px;
+  gap: 10px;
+  margin-left: 200px;
+}
+
+
+table,thead,tr,th,td{
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.red{
+  color: red;
+  padding: 20px 0;
+}
+
+.Searchfilter{
+ 
+  height: 35px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width:100%;
+  color: brown;
+}
+
+
+.drop{
+  height: 35px;
+  gap: 2rem;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+.count{
+  color: blueviolet;
+ /* margin-left: 500px; */
+
+ 
+}
+
+.pages {
+  display: flex;
+  justify-content: center; /* Center the pagination */
+  margin: 20px 0; /* Add some margin for spacing */
+}
+
+.pages span {
+  padding: 10px 15px; /* Add padding for button-like appearance */
+  margin: 0 5px; /* Add some space between buttons */
+  cursor: pointer; /* Change cursor to pointer */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.pages span:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.pages span.active {
+  background-color: #0056b3; /* Active page background color */
+  font-weight: bold; /* Highlight active page */
+}
+
+
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+  max-width: 90%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
